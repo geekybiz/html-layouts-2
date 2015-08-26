@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+#boxes {
+  width: 100%;
+  height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 10%;
+}
+
+.box-1 {
+  height: 25%;
+  width: 25%;
+  background-color: #b80000;
+  display: inline-block;
+  margin: 10px;
+}
+
+.box-2 {
+  height: 25%;
+  width: 25%;
+  background-color: #5c8ae6;
+  display: inline-block;
+  margin: 10px;
+}
+
+.box-3 {
+  height: 25%;
+  width: 25%;
+  background-color: #333333;
+  display: inline-block;
+  margin: 10px;
+}
+
+p {
+  position: relative;
+  top: 250px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.midbox-1 {
+  top: 40%;
+  position: relative;
+  width: 40%;
+  height: 40%;
+  background-color: #b80000;
+  left: 10%;
+  float: left;
+}
+
+.midbox-2 {
+  top: 40%;
+  position: relative;
+  width: 60%;
+  height: 40%;
+  background-color: #5c8ae6;
+  right: 10%;
+  float: right;
+}
+
+
+.bottombox-1 {
+  top: 45%;
+  position: relative;
+  width: 60%;
+  height: 30%;
+  background-color: #5c8ae6;
+  right: 10%;
+  left: 10%;
+  float: left;
+}
+
+.bottombox-2 {
+  top: 45%;
+  position: relative;
+  width: 30%;
+  height: 30%;
+  background-color: #b80000;
+  right: 10%;
+  float: right;
+}
+
+.bottombox-3 {
+  top: 15%;
+  position: relative;
+  width: 20%;
+  height: 30%;
+  background-color: #333333;
+  right: 0;
+  float: right;
+  right: 15%;
+}
